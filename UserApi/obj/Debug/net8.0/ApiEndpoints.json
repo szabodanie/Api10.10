@@ -75,5 +75,21 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "UserApi.Migrations.UserController",
+    "Method": "Delete",
+    "RelativePath": "users",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
